@@ -78,7 +78,7 @@ const mainStage = new Stage("main-canvas");
 const stages = [trailsStage, mainStage];
 
 //随机文字烟花内容
-const randomWords = ["Hương","Tom"];
+const randomWords = ["Huy"];
 const wordDotsMap = {};
 randomWords.forEach((word) => {
 	wordDotsMap[word] = MyMath.literalLattice(word, 3, "Gabriola,华文琥珀", "90px");
@@ -319,35 +319,35 @@ const helpContent = {
 	},
 	shellSize: {
 		header: "Kích thước pháo hoa",
-		body: "Pháo hoa càng lớn, phạm vi nở càng rộng, nhưng pháo hoa càng lớn thì thiết bị càng yêu cầu hiệu suất cao hơn có thể khiến thiết bị của Hương bị treo.",
+		body: "Pháo hoa càng lớn, phạm vi nở càng rộng, nhưng pháo hoa càng lớn thì thiết bị càng yêu cầu hiệu suất cao hơn có thể khiến thiết bị của bạn bị treo.",
 	},
 	quality: {
 		header: "Chất lượng hình ảnh",
-		body: "Nếu ảnh động chạy không mượt, Hương có thể thử giảm chất lượng hình ảnh xuống. Chất lượng hình ảnh càng cao thì số tia lửa sau khi pháo hoa nổ càng nhiều, tuy nhiên chất lượng hình ảnh cao có thể khiến thiết bị của Hương bị đơ.",
+		body: "Nếu ảnh động chạy không mượt, bạn có thể thử giảm chất lượng hình ảnh xuống. Chất lượng hình ảnh càng cao thì số tia lửa sau khi pháo hoa nổ càng nhiều, tuy nhiên chất lượng hình ảnh cao có thể khiến thiết bị của bạn bị đơ.",
 	},
 	skyLighting: {
 		header: "Ánh sáng nền",
-		body: "Khi pháo hoa nổ, hậu cảnh sẽ được chiếu sáng. Nếu màn hình của Hương có vẻ quá sáng, hãy đổi nó thành Tối hoặc Không。",
+		body: "Khi pháo hoa nổ, hậu cảnh sẽ được chiếu sáng. Nếu màn hình của bạn có vẻ quá sáng, hãy đổi nó thành Tối hoặc Không。",
 	},
 	scaleFactor: {
 		header: "Phóng pháo hoa",
-		body: "Đưa Hương đến gần hơn hoặc xa hơn khỏi pháo hoa. Đối với pháo hoa lớn hơn, Hương có thể chọn giá trị thu phóng nhỏ hơn, đặc biệt là trên điện thoại hoặc máy tính bảng.",
+		body: "Đưa bạn đến gần hơn hoặc xa hơn khỏi pháo hoa. Đối với pháo hoa lớn hơn, bạn có thể chọn giá trị thu phóng nhỏ hơn, đặc biệt là trên điện thoại hoặc máy tính bảng.",
 	},
 	wordShell: {
 		header: "Pháo hoa văn bản",
-		body: "Khi bật, dòng chữ có hình pháo hoa sẽ xuất hiện. Ví dụ: Hương, Tom (hiện tại tớ chỉ để 2 thui) v.v.",
+		body: "Khi bật, dòng chữ có hình pháo hoa sẽ xuất hiện. Ví dụ: Huy (hiện tại tôi chỉ để 1 thui) v.v.",
 	},
 	autoLaunch: {
 		header: "Tự động bắn pháo hoa",
-		body: "Sau khi bật, Hương có thể ngồi trước màn hình thiết bị và thưởng thức pháo hoa. Hương cũng có thể tắt nó đi, nhưng sau khi tắt, Hương chỉ có thể bắn pháo hoa bằng cách chạm vào màn hình.",
+		body: "Sau khi bật, bạn có thể ngồi trước màn hình thiết bị và thưởng thức pháo hoa. bạn cũng có thể tắt nó đi, nhưng sau khi tắt, bạn chỉ có thể bắn pháo hoa bằng cách chạm vào màn hình.",
 	},
 	finaleMode: {
 		header: "Bắn nhiều pháo hoa cùng lúc",
-		body: "Hương có thể tự động bắn nhiều pháo hoa cùng lúc (nhưng trước tiên Hương cần bật Tự động bắn pháo hoa)”）。",
+		body: "bạn có thể tự động bắn nhiều pháo hoa cùng lúc (nhưng trước tiên bạn cần bật Tự động bắn pháo hoa)”）。",
 	},
 	hideControls: {
 		header: "Ẩn các nút điều khiển",
-		body: "Ẩn các nút ở đầu màn hình. Nếu muốn chụp ảnh màn hình hoặc cần trải nghiệm liền mạch, Hương có thể ẩn nút. Sau khi ẩn nút, Hương vẫn có thể mở cài đặt ở góc trên bên phải.",
+		body: "Ẩn các nút ở đầu màn hình. Nếu muốn chụp ảnh màn hình hoặc cần trải nghiệm liền mạch, bạn có thể ẩn nút. Sau khi ẩn nút, bạn vẫn có thể mở cài đặt ở góc trên bên phải.",
 	},
 	fullscreen: {
 		header: "toàn màn hình",
